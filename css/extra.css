@@ -1,0 +1,24 @@
+p, h1, h2, h3, a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-toggler {
+   font-size: 4.5rem;  /* adjust size as required */
+}
+
+.custom-toggler .navbar-toggler-icon {
+   width: 1.5em;
+   height: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 20px;
+    padding: 15px;
+  }
+  
+  .dropdown-item {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
